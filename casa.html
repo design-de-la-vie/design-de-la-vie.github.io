@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-BK3JWQP4KM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-BK3JWQP4KM");
+  </script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <style>
+    a,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    li,
+    ol,
+    p,
+    span,
+    ul {
+      font-family: "Lato", "Montserrat", "Raleway", "Roboto", "Open Sans",
+        sans-serif !important;
+      color: #294038 !important;
+      font-weight: 300 !important;
+    }
+  </style>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <title>Olena Pustynska: Portfolio</title>
+</head>
+
+<style>
+  body {
+    background-color: #f4eee0;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  .bg-box {
+    background-color: #f9f9f7;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0px 10px 17px -20px rgb(0 0 0 / 20%),
+      0 6px 20px 0 rgb(0 0 0 / 10%);
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .portfolio-img {
+    border-radius: 8px;
+    box-shadow: 4px 5px 9px 0px rgb(0 0 0 / 12%),
+      0 6px 20px 0 rgb(0 0 0 / 12%);
+    transition: box-shadow 0.5s, border-radius 0.5s;
+  }
+
+  .banner-img {
+    box-shadow: 0px 10px 17px -20px rgb(0 0 0 / 20%),
+      0 6px 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 8px;
+  }
+
+  .resume-btn {
+    font-size: 1.8rem;
+    background-color: transparent;
+    padding: 2px;
+    border-radius: 5px;
+    border: 3px solid #869a91;
+    text-decoration: none !important;
+    transition: background-color 0.5s;
+  }
+
+  .resume-btn:hover {
+    background-color: #869a91;
+    color: #f4eee0 !important;
+  }
+
+  .box-btn {
+    border-right: solid 1px #ddd8cb;
+    border-left: solid 1px #ddd8cb;
+  }
+
+  .mobile-sep-br {
+    display: none;
+  }
+
+  .img-col {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .img-col img {
+    margin-top: 2rem !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    .big-title {
+      font-size: 2.7rem !important;
+    }
+
+    .mobile-sep-br {
+      display: inline-block;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    .img-col {
+      padding-right: 12px;
+      padding-left: 12px;
+    }
+
+    .img-col img {
+      margin-top: 1.6rem !important;
+    }
+  }
+
+  @media screen and (min-width: 568px) {
+    .btns-row {
+      margin: 0px !important;
+    }
+  }
+
+  .project-name {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  .year {
+    font-size: 1.8rem;
+  }
+
+  .project-desc {
+    font-size: 1.3rem;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 10px;
+    margin-top: 1.5rem;
+  }
+</style>
+
+<body class="container">
+  <div id="portfolio" style="margin-top: 4rem" class="mb-5 text-center bg-box col-11 mx-auto">
+    <h1 class="big-title">PORTFOLIO</h1>
+  </div>
+
+  <div style="margin-bottom: 8rem !important" class="mt-5 mb-5 row text-center bg-box mx-auto col-12">
+    <div onclick="window.location.href='index.html#resume'; " class="col-12 col-md box-btn" style="cursor: pointer">
+      <h3>resume</h3>
+    </div>
+    <div onclick="window.location.href='index.html#contacts'; " class="col-12 col-md box-btn" style="cursor: pointer">
+      <h3>contacts</h3>
+    </div>
+    <div onclick="window.location.href='index.html'; " class="col-12 col-md box-btn" style="cursor: pointer">
+      <h3>main page</h3>
+    </div>
+  </div>
+
+  <div id="casa" style="margin-top: 3rem" class="mb-5 text-center bg-box col-11 mx-auto">
+    <h1 class="project-name">CASA DE COCCINELLE</h1>
+    <h3 class="year">2018 - 2022</h3>
+    <p class="project-desc">
+      Luxury bungalows with a golf course. The full scope of work: landscape
+      design, architectural design of the buildings, the interior design of
+      the spaces, and advanced development of the project concept - from the
+      logo to the menu.
+    </p>
+  </div>
+
+  <div class="row col-12 col-xl-11 mx-auto">
+    <div class="col-6 col-sm-6 col-md img-col">
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/1 Screenshot_2022-06-05-14-02-02 copy 2-gigapixel-low_res-width-5000px.png
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/10 IMG_5428-CR2_DxO_DeepPRIME_19 (2).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/10 IMG_5428-CR2_DxO_DeepPRIME_19 (5).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/10 Untitled-1 (2) copy-gigapixel-low_res-width-5000px.png
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/13 Untitled-1 copy-gigapixel-low_res-width-5000px.png
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/16 IMG_20210813_113713 copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (11).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (14).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (4).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (7).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/2 Screenshot_2022-06-05-14-01-56 copy 2-gigapixel-low_res-width-5000px.png
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/5 DJI_0106.00_00_04_09.Still001 copy-gigapixel-low_res-width-5000px.png
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/9 IMG_20211110_112213-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20200518_174007-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20200708_184246-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20200725_124836-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20201026_115720-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20201026_195316-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20201028_140708-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20210827_101249.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_5462-CR2_DxO_DeepPRIME_28.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (24) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (27) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (30) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (33) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (36) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+    </div>
+
+    <div class="col-6 col-sm-6 col-md img-col">
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/10 IMG_20211110_112234.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/10 IMG_5428-CR2_DxO_DeepPRIME_19 (3).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/10 IMG_5428-CR2_DxO_DeepPRIME_19 (6).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/11 Untitled-1 (3) copy-gigapixel-low_res-width-5000px.png
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/14 IMG_20201121_201730-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (1).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (12).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (2).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (5).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (8).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/3 Screenshot_2022-06-05-14-01-52 copy 2-gigapixel-low_res-width-5000px.png
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/6 Screenshot_2022-06-05-14-03-03 copy 2-gigapixel-low_res-width-5000px.png
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20200303_153140-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20200524_101418-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20200725_120715-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20200825_161921-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20201026_175640-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20201026_195352-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20201030_144204-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto"
+        src="static/casa/IMG_20210827_101726-gigapixel-very_compressed-width-5184px.jpg" />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (22) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (25) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (28) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (31) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (34) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (37) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (40) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (32) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (35) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (38) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+    </div>
+
+    <div class="col-6 col-sm-6 col-md img-col">
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/10 IMG_5428-CR2_DxO_DeepPRIME_19 (1).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/10 IMG_5428-CR2_DxO_DeepPRIME_19 (4).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/10 IMG_5428-CR2_DxO_DeepPRIME_19 (7).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/12 Untitled-1 (4) copy-gigapixel-low_res-width-5000px.png
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/15 IMG_20210827_101249-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (10).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (13).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (3).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (6).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/17 IMG_20210113_140120-gigapixel-very_compressed-width-5184px (9).jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/4 Screenshot_2022-06-05-14-02-05 copy 2-gigapixel-low_res-width-5000px.png
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/7 IM 1G_20211110_112234-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20200303_153142-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20200610_174505-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20200725_124804-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20201026_115329.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20201026_195244-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20201028_140654-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20201030_154047-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/IMG_20210827_101735-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (23) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (26) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (29) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (41) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/hIMG_20200717_094723-gigapixel-very_compressed-width-5184px.jpg
+    " />
+      <img class="mt-5 portfolio-img mx-auto" src="static/casa/h10 E512 - (39) IMG_6125-CR2_DxO_DeepPRIME copy.jpg
+    " />
+    </div>
+  </div>
+
+  <img class="mt-5 mb-5 banner-img" src="static/img/End.jpg" />
+</body>
+
+</html>
