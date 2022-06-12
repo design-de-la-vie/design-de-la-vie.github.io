@@ -1,227 +1,279 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <script
+      async="async"
+      src="https://www.googletagmanager.com/gtag/js?id=G-F5GY6TGD3H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-BK3JWQP4KM"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+      gtag("config", "G-F5GY6TGD3H");
+    </script>
 
-    gtag("config", "G-BK3JWQP4KM");
-  </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+    <style>
+      a,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      li,
+      ol,
+      p,
+      span,
+      ul {
+        font-family: "Lato", "Montserrat", "Raleway", "Roboto", "Open Sans",
+          sans-serif !important;
+        color: #294038 !important;
+        font-weight: 300 !important;
+      }
+    </style>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Olena Pustynska: Portfolio</title>
+  </head>
 
   <style>
-    a,
-    div,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    li,
-    ol,
-    p,
-    span,
-    ul {
-      font-family: "Lato", "Montserrat", "Raleway", "Roboto", "Open Sans",
-        sans-serif !important;
-      color: #294038 !important;
-      font-weight: 300 !important;
+    body {
+      background-color: #f4eee0;
     }
-  </style>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    h1 {
+      font-size: 3.2rem;
+    }
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+    .bg-box {
+      background-color: #f9f9f7;
+      border-radius: 5px;
+      padding: 12px;
+      box-shadow: 0px 10px 17px -20px rgb(0 0 0 / 20%),
+        0 6px 20px 0 rgb(0 0 0 / 10%);
+    }
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    .portfolio-img {
+      border-radius: 8px;
+      box-shadow: 4px 5px 9px 0px rgb(0 0 0 / 12%),
+        0 6px 20px 0 rgb(0 0 0 / 12%);
+      transition: box-shadow 0.5s, border-radius 0.5s;
+    }
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    .banner-img {
+      box-shadow: 0px 10px 17px -20px rgb(0 0 0 / 20%),
+        0 6px 20px 0 rgb(0 0 0 / 10%);
+      border-radius: 8px;
+    }
 
-  <title>Olena Pustynska: Portfolio</title>
-</head>
+    .resume-btn {
+      font-size: 1.8rem;
+      background-color: transparent;
+      padding: 2px;
+      border-radius: 5px;
+      border: 3px solid #869a91;
+      text-decoration: none !important;
+      transition: background-color 0.5s;
+    }
 
-<style>
-  body {
-    background-color: #f4eee0;
-  }
+    .resume-btn:hover {
+      background-color: #869a91;
+      color: #f4eee0 !important;
+    }
 
-  h1 {
-    font-size: 3.2rem;
-  }
-
-  .bg-box {
-    background-color: #f9f9f7;
-    border-radius: 5px;
-    padding: 12px;
-    box-shadow: 0px 10px 17px -20px rgb(0 0 0 / 20%),
-      0 6px 20px 0 rgb(0 0 0 / 10%);
-  }
-
-  img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .portfolio-img {
-    border-radius: 8px;
-    box-shadow: 4px 5px 9px 0px rgb(0 0 0 / 12%),
-      0 6px 20px 0 rgb(0 0 0 / 12%);
-    transition: box-shadow 0.5s, border-radius 0.5s;
-  }
-
-  .banner-img {
-    box-shadow: 0px 10px 17px -20px rgb(0 0 0 / 20%),
-      0 6px 20px 0 rgb(0 0 0 / 10%);
-    border-radius: 8px;
-  }
-
-  .resume-btn {
-    font-size: 1.8rem;
-    background-color: transparent;
-    padding: 2px;
-    border-radius: 5px;
-    border: 3px solid #869a91;
-    text-decoration: none !important;
-    transition: background-color 0.5s;
-  }
-
-  .resume-btn:hover {
-    background-color: #869a91;
-    color: #f4eee0 !important;
-  }
-
-  .box-btn {
-    border-right: solid 1px #ddd8cb;
-    border-left: solid 1px #ddd8cb;
-  }
-
-  .mobile-sep-br {
-    display: none;
-  }
-
-  .img-col {
-    padding-right: 18px;
-    padding-left: 18px;
-  }
-
-  .img-col img {
-    margin-top: 2rem !important;
-  }
-
-  @media screen and (max-width: 768px) {
-    .big-title {
-      font-size: 2.7rem !important;
+    .box-btn {
+      border-right: solid 1px #ddd8cb;
+      border-left: solid 1px #ddd8cb;
     }
 
     .mobile-sep-br {
-      display: inline-block;
-    }
-
-    h3 {
-      font-size: 1.5rem;
+      display: none;
     }
 
     .img-col {
-      padding-right: 12px;
-      padding-left: 12px;
+      padding-right: 18px;
+      padding-left: 18px;
     }
 
     .img-col img {
-      margin-top: 1.6rem !important;
+      margin-top: 2rem !important;
     }
-  }
 
-  @media screen and (min-width: 568px) {
-    .btns-row {
-      margin: 0px !important;
+    @media screen and (max-width: 768px) {
+      .big-title {
+        font-size: 2.7rem !important;
+      }
+
+      .mobile-sep-br {
+        display: inline-block;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      .img-col {
+        padding-right: 12px;
+        padding-left: 12px;
+      }
+
+      .img-col img {
+        margin-top: 1.6rem !important;
+      }
     }
-  }
 
-  .project-name {
-    font-size: 2.5rem;
-    margin-top: 1rem;
-  }
+    @media screen and (min-width: 568px) {
+      .btns-row {
+        margin: 0px !important;
+      }
+    }
 
-  .year {
-    font-size: 1.8rem;
-  }
+    .project-name {
+      font-size: 2.5rem;
+      margin-top: 1rem;
+    }
 
-  .project-desc {
-    font-size: 1.3rem;
-    text-align: left;
-    padding-left: 25px;
-    padding-right: 10px;
-    margin-top: 1.5rem;
-  }
-</style>
+    .year {
+      font-size: 1.8rem;
+    }
 
-<body class="container">
-  <div id="portfolio" style="margin-top: 4rem" class="mb-5 text-center bg-box col-11 mx-auto">
-    <a style="text-decoration: none;" href="index.html#portfolio"><h1 class="big-title">PORTFOLIO</h1></a>
-  </div>
+    .project-desc {
+      font-size: 1.3rem;
+      text-align: left;
+      padding-left: 25px;
+      padding-right: 10px;
+      margin-top: 1.5rem;
+    }
+  </style>
 
-  <div style="margin-bottom: 8rem !important" class="mt-5 mb-5 row text-center bg-box mx-auto col-12">
-    <div onclick="window.location.href='index.html#resume'; " class="col-12 col-md box-btn" style="cursor: pointer">
-      <h3>resume</h3>
-    </div>
-    <div onclick="window.location.href='index.html#contacts'; " class="col-12 col-md box-btn" style="cursor: pointer">
-      <h3>contacts</h3>
-    </div>
-    <div onclick="window.location.href='index.html'; " class="col-12 col-md box-btn" style="cursor: pointer">
-      <h3>main page</h3>
-    </div>
-  </div>
-
-  <div id="saloon" style="margin-top: 3rem" class="mb-5 text-center bg-box col-11 mx-auto">
-    <h1 class="project-name">SALOON</H1>
-    <h3 class="year">2007</h3>
-    <p class="project-desc">Design of Drive-in Cinema “Saloon”: creating a concept with elements of the Wild West style, taking into account the wishes of the customer, the development of traffic schemes and parking spaces, safe traffic of pedestrians and staff, the creation of technical rooms for maintenance of the cinema. </p>
-  </div>
-
-  <div class="row col-12 col-xl-11 mx-auto">
-    <div class="col-12 col-sm-6 col-md" style="padding: 23px">
-      <img class="portfolio-img mx-auto"
-        src="static/saloon/дарик 2007 074-gigapixel-very_compressed-width-5184px.jpg" />
-      <img class="mt-5 portfolio-img mx-auto"
-        src="static/saloon/дарик 2007 077-gigapixel-very_compressed-width-5184px.jpg" />
+  <body class="container">
+    <div
+      id="portfolio"
+      style="margin-top: 4rem"
+      class="mb-5 text-center bg-box col-11 mx-auto"
+    >
+      <a style="text-decoration: none" href="index.html#portfolio"
+        ><h1 class="big-title">PORTFOLIO</h1></a
+      >
     </div>
 
-    <div class="col-12 col-sm-6 col-md" style="padding: 23px">
-      <img class="portfolio-img mx-auto"
-        src="static/saloon/дарик 2007 075-gigapixel-very_compressed-width-5184px.jpg" />
+    <div
+      style="margin-bottom: 8rem !important"
+      class="mt-5 mb-5 row text-center bg-box mx-auto col-12"
+    >
+      <div
+        onclick="window.location.href='index.html#resume'; "
+        class="col-12 col-md box-btn"
+        style="cursor: pointer"
+      >
+        <h3>resume</h3>
+      </div>
+      <div
+        onclick="window.location.href='index.html#contacts'; "
+        class="col-12 col-md box-btn"
+        style="cursor: pointer"
+      >
+        <h3>contacts</h3>
+      </div>
+      <div
+        onclick="window.location.href='index.html'; "
+        class="col-12 col-md box-btn"
+        style="cursor: pointer"
+      >
+        <h3>main page</h3>
+      </div>
     </div>
 
-    <div class="col-12 col-sm-6 col-md" style="padding: 23px">
-      <img class="portfolio-img mx-auto"
-        src="static/saloon/дарик 2007 076-gigapixel-very_compressed-width-5184px.jpg" />
+    <div
+      id="saloon"
+      style="margin-top: 3rem"
+      class="mb-5 text-center bg-box col-11 mx-auto"
+    >
+      <h1 class="project-name">SALOON</h1>
+      <h3 class="year">2007</h3>
+      <p class="project-desc">
+        Design of Drive-in Cinema “Saloon”: creating a concept with elements of
+        the Wild West style, taking into account the wishes of the customer, the
+        development of traffic schemes and parking spaces, safe traffic of
+        pedestrians and staff, the creation of technical rooms for maintenance
+        of the cinema.
+      </p>
     </div>
-  </div>
 
-  <img class="mt-5 mb-5 banner-img" src="static/img/end.jpg" />
-</body>
+    <div class="row col-12 col-xl-11 mx-auto">
+      <div class="col-12 col-sm-6 col-md" style="padding: 23px">
+        <img
+          class="portfolio-img mx-auto"
+          src="static/saloon/дарик 2007 074-gigapixel-very_compressed-width-5184px.jpg"
+        />
+        <img
+          class="mt-5 portfolio-img mx-auto"
+          src="static/saloon/дарик 2007 077-gigapixel-very_compressed-width-5184px.jpg"
+        />
+      </div>
 
+      <div class="col-12 col-sm-6 col-md" style="padding: 23px">
+        <img
+          class="portfolio-img mx-auto"
+          src="static/saloon/дарик 2007 075-gigapixel-very_compressed-width-5184px.jpg"
+        />
+      </div>
+
+      <div class="col-12 col-sm-6 col-md" style="padding: 23px">
+        <img
+          class="portfolio-img mx-auto"
+          src="static/saloon/дарик 2007 076-gigapixel-very_compressed-width-5184px.jpg"
+        />
+      </div>
+    </div>
+
+    <img class="mt-5 mb-5 banner-img" src="static/img/end.jpg" />
+  </body>
 </html>
